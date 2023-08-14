@@ -1,0 +1,61 @@
+body{
+ background-color:  black;
+ color: white;
+ 
+}
+
+.contenedor {
+    display: flex; /* Utilizar flexbox para centrar vertical y horizontalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    width: 100vw; /* Ancho igual al ancho de la ventana */
+    height: 20vh; /* Altura igual a la altura de la ventana */
+}
+
+/* Estilos para el div de mensaje */
+.mensaje {
+    background-color: rgb(232, 186, 18);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.boton-dragon-ball {
+    background-color: #FF4500;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.boton-dragon-ball:hover {
+    background-color: #FF6347;
+    transform: scale(1.05);
+}
+.personaje{
+    color: #FF4500;
+}
+
+.contenedor {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boton-dragon-ball {
+    /* Estilos del botón aquí */
+}
+
+/* Estilos para las imágenes */
+#imagenPersonaje {
+    display: none;
+    max-width: 300px; /* Tamaño máximo de la imagen */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
